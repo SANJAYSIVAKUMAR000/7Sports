@@ -1,0 +1,309 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#first{
+  cursor:default;
+ }
+
+.div1{
+  background-color:#446084;
+}
+.search1{
+  width: 150px;
+}
+.b1{ 
+  text-align: justify;
+  background-color: transparent;
+}
+.slidimg{
+  height: 72vh;
+}
+#mycarousel{
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+}
+.bi{
+  width: 25px;
+}
+
+
+#iconimg{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+a{
+  transition: all .2s linear;
+}
+a{
+  opacity:.7;
+}
+a:hover{
+  opacity: 1;
+}
+.icons{
+  opacity: 1;
+}
+.icons:hover{
+  opacity: 0.7;
+}
+#iconimg:hover{
+  background-color:rgba(1, 5, 58, 0.774);
+}
+#icon1{
+  opacity: 0;
+}
+
+
+.msd{
+  background: url(/msd.jpg);
+  height: 315px;
+  width: 85%;
+  background-position: center;
+  background-size: cover;
+}
+.shop{
+  background: url(/shop.jpg);
+  height: 260px;
+  width: 70%;
+  background-position: center;
+  background-size: cover;
+
+}
+.ifr{
+  width: 95%;
+  background-position: center;
+  background-size: cover;
+}
+#men{
+  background: url(/men.jpg);
+  height: 360px;
+  width: 53.5%;
+  background-position: center;
+  background-size: cover;
+}
+#women{
+  background: url(/women.jpg);
+  height: 360px;
+  width: 46.5%;
+  background-position: center;
+  background-size: cover;
+}
+.insidetext:hover{
+  background-color: rgb(14, 57, 112);
+  border: transparent;
+}
+.insidetext{
+  width: 150px;
+  padding: 1.2%;
+  text-align: center;
+  transition: all .2s linear;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+}
+
+
+.searchbar{
+  width: 300px;
+  border: 1.5px ridge rgb(83, 83, 83);
+  transition: all .2s linear;
+}
+.searchbar:hover{
+  background-color: rgb(255, 255, 255);
+}
+.apparel{
+  transition: all .2s linear;
+}
+.app1{
+  width: 250px;
+}
+.apparel:hover{
+  background-color: transparent;
+  color: black;
+}
+.head{
+  font-size: 14.5px;
+}
+#newarrival{
+  color: gray;
+  font-weight: bold;
+  width: 100%;
+  border: 1px solid red;
+}
+#newarrival:hover{
+  color: black;
+}
+
+
+.sub{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+}
+.sub1{
+  height: 8vh;
+  width: 100%;
+  background-color: rgb(233, 233, 233);
+}
+.sub2{
+  font-size: 20px;
+  width: 96%;
+  margin: auto;
+}
+.inputs{
+  width: 99%;
+  height: 4vh;
+  border: 1px solid rgb(145, 145, 145);
+  box-shadow: inset 1px 1px gainsboro;
+}
+.lgnip1,.lgnip2{
+  font-size: 23px;
+  font-weight: light;
+  margin: 2% 0;
+}
+.loginbtn{
+  cursor:default;
+}
+.lgh3>a{
+  font-size: large;
+  color:rgb(140, 140, 140);
+  text-decoration: none;
+}
+.lgh3>a:hover{
+  color:rgb(39, 39, 171)
+}
+.loginbtn>button{
+  background-color: rgb(63, 132, 193);
+  color: white;
+  font-size: 20px;
+  padding: 1%;
+  margin-left: 2%;
+  border: 1px solid transparent;
+  transition: all .2s linear;
+}
+.loginbtn>button:active{
+  transform: scale(.9);
+}
+
+
+.bgfooter{
+  background-image: linear-gradient(to right,#4c4c4c,#777);
+  height:max-content;
+  padding: 1.8% 0;
+}
+.footer1{
+  margin: auto;
+  width: 75%;
+}
+#footersub1{
+  width: 60%;
+}
+#footersub1{
+  opacity: 0.6;
+}
+#footersub2{
+  width: 40%;
+}
+#footersub2>ul{
+  height: 100%;
+}
+#iconfooter{
+  opacity: 0.7;
+  height: 40px;
+  width: 55px;
+  padding: 1px;
+  transition: all .2s linear;
+}
+#iconfooter:hover{
+  opacity: 1;
+}
+
+
+@media all and (max-width:1700px) {
+
+  .footer1{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: start;
+  align-items: start;
+  padding: 1% 0;
+}
+
+#footersub1{
+  width: 100%;
+}
+#footersub2{
+  width: 100%;
+}
+
+}
+
+
+@media all and (max-width:1115px) {
+
+#first{
+  display:none;           
+}
+.slidimg{
+  height: 40vh;
+}
+
+  }
+
+
+@media all and (max-width:992px) {
+
+#icon1{
+  opacity: 1;
+}
+#icon1:hover{
+  opacity: 0.7;
+}
+.msd{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.shop{
+  width: 100%;
+  background-position: center;
+  background-size: cover; 
+}
+.ifr{
+  width: 100%;
+}
+#men{
+  width: 100%;
+} 
+#women{
+  width: 100%;
+}
+.footer1{
+  margin: auto;
+  width: 95%;
+}
+    
+#footersub1{
+  width: 100%;
+}
+#footersub2{
+  width: 100%;
+}
+
+}
+
+@media all and (max-width:567px) {
+
+#iconfooter{
+  border-radius: 0%;
+  height: 25px;
+  width: 45px;
+  }
+}
