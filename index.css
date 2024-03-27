@@ -246,7 +246,7 @@ a:hover{
 }
 
 
-@media all and (max-width:1115px) {
+@media all and (max-width:1215px) {
 
 #first{
   display:none;           
@@ -254,7 +254,9 @@ a:hover{
 .slidimg{
   height: 40vh;
 }
-
+#login{
+  display: none;
+}
   }
 
 
