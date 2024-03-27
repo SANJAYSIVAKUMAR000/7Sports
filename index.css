@@ -68,14 +68,14 @@ a:hover{
 
 
 .msd{
-  background: url(/sevensports/Images/msd.jpg);
+  background: url(/7Sports/Images/msd.jpg);
   height: 315px;
   width: 85%;
   background-position: center;
   background-size: cover;
 }
 .shop{
-  background: url(/sevensports/Images/shop.jpg);
+  background: url(/7Sports/Images/shop.jpg);
   height: 260px;
   width: 70%;
   background-position: center;
@@ -88,14 +88,14 @@ a:hover{
   background-size: cover;
 }
 #men{
-  background: url(/sevensports/Images/men.jpg);
+  background: url(/7Sports/Images/men.jpg);
   height: 360px;
   width: 53.5%;
   background-position: center;
   background-size: cover;
 }
 #women{
-  background: url(/sevensports/Images/women.jpg);
+  background: url(/7Sports/Images/women.jpg);
   height: 360px;
   width: 46.5%;
   background-position: center;
