@@ -333,7 +333,9 @@ a:hover{
 }
 
 @media all and (max-width:567px) {
-
+.para{
+  font-size: .6rem;
+}
 #iconfooter{
   border-radius: 0%;
   height: 25px;
